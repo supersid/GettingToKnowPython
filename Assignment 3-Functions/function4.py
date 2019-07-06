@@ -1,4 +1,6 @@
-#this code will convert any base number to different base number
+# Take sb(source number system base), db(destination number system base) and
+# sn(number in source format). Write a function that converts sn to its counterpart
+# in destination number system. Print the value returned.
 def SbToDb(ib,fb,number):
     result, rem, i = 0, 0, 0
 #this converts any base to decimal
