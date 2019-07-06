@@ -1,6 +1,7 @@
+#this code will convert any base number to different base number
 def SbToDb(ib,fb,number):
     result, rem, i = 0, 0, 0
-
+#this converts any base to decimal
     while number!=0:
         rem = number%10
         number = number//10
@@ -8,6 +9,7 @@ def SbToDb(ib,fb,number):
         i = i+1
     final=0
     i = 0
+#this converts decimal to final base    
     while result!=0:
         rem = result%fb
         result = result//fb
