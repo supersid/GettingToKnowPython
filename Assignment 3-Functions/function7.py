@@ -1,3 +1,5 @@
+# Take as input a number. Assume that for a number of n digits, the value of each
+# digit is from 1 to n and is unique. E.g. 32145 is a valid input number.
 def UniqueNumberCheck(number):
     number = str(number)
     flag = False
@@ -8,6 +10,6 @@ def UniqueNumberCheck(number):
                 flag = True
     if flag == False:
         print("This is a valid input number")
-
-number = int(input("Enter Number:"))
-UniqueNumberCheck(number)
+if __name__ == '__main__':
+    number = int(input("Enter Number:"))
+    UniqueNumberCheck(number)

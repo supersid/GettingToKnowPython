@@ -1,5 +1,6 @@
 # Take N(number in binary format). Write a function that converts it to decimal
 # format. Print the value returned.
+
 def BinaryToDecimal(n):
     decimal,i = 0,0
     while(n!=0):

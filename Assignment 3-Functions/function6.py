@@ -1,3 +1,8 @@
+# Take as input the following
+# a. A number
+# b. A digit
+# Write a function that returns the number of times digit is found in the number.
+# Print the value returned.
 def DigitCounter(num,digit):
     counter = 0
     while(num>0):
@@ -9,7 +14,8 @@ def DigitCounter(num,digit):
     
     return(num>0)
 
-num = int(input("Enter Number:"))
-digit = int(input("Enter Digit to found:"))
-a = num
-DigitCounter(num,digit)
+if __name__ == '__main__':
+    num = int(input("Enter Number:"))
+    digit = int(input("Enter Digit to found:"))
+    a = num
+    DigitCounter(num,digit)
