@@ -2,7 +2,6 @@
 # Take N more inputs and store that in another array. Write a function which returns true if the second array is inverse of first and false otherwise. Print the value returned.
 
 from TakeInputArray import Input
-import pdb
 def ReverseCheck(arr1,arr2):
     flag = True
     Input(arr1)
