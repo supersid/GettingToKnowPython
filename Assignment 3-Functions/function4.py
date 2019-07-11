@@ -10,9 +10,9 @@ def SbToDb(ib,fb,number):
         number = number//10
         result =  result+(rem*pow(ib,i))
         i = i+1
+#this converts decimal to final base
     final=0
     i = 0
-#this converts decimal to final base    
     while result!=0:
         rem = result%fb
         result = result//fb
