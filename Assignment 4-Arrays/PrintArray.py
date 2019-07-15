@@ -1,3 +1,3 @@
 def PrintArray(arr):
-    for i in arr:
-        print(i)
+    for i in range(len(arr)):
+        print(arr[i])
